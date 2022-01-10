@@ -1,0 +1,49 @@
+header {
+    background-color: #505050;
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 35px 20px 0px;
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color:steelblue;
+    background-color: turquoise;
+    padding-top: 15px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: steelblue;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+.border-bottom {
+    border-bottom: 2px solid steelblue;
+    margin-right: 10px;
+}
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  /* End of header and Navigation */
+
+  #hero {
+      background-image: url('')
+  }
